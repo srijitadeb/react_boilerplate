@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import App from './App';
 //import { Header } from "./Components/Header/header";
-const title = 'My Minimal React Webpack Babel Setup';
+//const title = 'My Minimal React Webpack Babel Setup';
 
 ReactDOM.render(
-  <div>{title}</div>,
+  <App />,
   document.getElementById('app')
 );
 
